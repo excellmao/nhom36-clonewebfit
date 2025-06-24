@@ -1,0 +1,21 @@
+*{
+    /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; sans-serif; */
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+    .footer{
+    padding: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+div.copyright{
+    padding: 25px 0px;
+    border-top: solid 1px grey;
+}
+.footer-menu a{
+    padding-right: 15px;
+    border-right: solid 1px grey;
+    margin-right: 15px;
+}
