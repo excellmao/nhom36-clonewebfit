@@ -248,58 +248,31 @@
     </div>
 
     <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
-      style="top: 34px"
-    >
-      <a href="/" class="navbar-brand d-flex align-items-center px-1 px-xxl-5"
-        ><div class="ms-md-0 wow fadeInDown">
-          <img
-            src="img/LogoFIT.png"
-            alt="logo FIT"
-            href="/"
-            width="48px"
-            height="48px"
-            className="d-md-block ms-1 ms-md-0  wow fadeInDown"
-          />
+    <nav class="navbar navbar-expand-lg d-flex bg-white navbar-light shadow sticky-top p-0"
+      style="top: 34px; gap: 16px; justify-content: space-between;">
+      <a href="/" class="navbar-brand d-flex align-items-center px-1 px-xxl-5">
+        <div class="ms-md-0 wow fadeInDown">
+          <img src="img/LogoFIT.png" alt="logo FIT" href="/" width="48px" height="48px"
+            className="d-md-block ms-1 ms-md-0  wow fadeInDown" />
         </div>
-        <div
-          class="d-flex flex-column ms-2 d-none d-md-block d-xxl-block wow fadeInDown"
-          style="font-family: 'Barlow'"
-        >
+        <div class="d-flex flex-column ms-2 d-none d-md-block d-xxl-block wow fadeInDown" style="font-family: 'Barlow'">
           <h1 class="m-0 fs-5 text-primary">KHOA CÔNG NGHỆ THÔNG TIN</h1>
           <h2 class="m-0 text-dark fs-6">Faculty of Information Technology</h2>
-        </div></a
-      ><button
-        class="navbar-toggler mx-2"
-        type="button"
-        aria-controls="navbarCollapse"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        </div>
+      </a><button class="navbar-toggler mx-2" type="button" aria-controls="navbarCollapse" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div
-        class="collapse navbar-collapse wow fadeInDown me-5"
-        id="navbarCollapse"
-      >
-        <ul class="navbar-nav ms-auto p-4 p-lg-0">
-          <li
-            class="nav-item dropdown hover-primary align-items-center d-flex align-items-center"
-          >
-            <a class="nav-link dropdown-toggle" href="/" aria-expanded="false"
-              >GIỚI THIỆU</a
-            >
+      <div class="collapse navbar-collapse wow fadeInDown me-5" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto p-4 p-lg-0 d-flex " ; style="font-weight: bold;">
+          <li class="nav-item dropdown hover-primary align-items-center d-flex align-items-center">
+            <a class="nav-link dropdown-toggle" href="/" data-bs-toggle="dropdown" aria-expanded="false">GIỚI THIỆU</a>
             <ul class="dropdown-menu">
               <li class="nav-item">
-                <a class="dropdown-item" href="/information"
-                  >Khoa Công nghệ thông tin</a
-                >
+                <a class="dropdown-item" href="/information">Khoa Công nghệ thông tin</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/lecturer"
-                  >Giảng viên - Cán bộ</a
-                >
+                <a class="dropdown-item" href="/lecturer">Giảng viên - Cán bộ</a>
               </li>
               <li class="nav-item">
                 <a class="dropdown-item" href="/contact">Liên hệ</a>
@@ -309,167 +282,97 @@
               </li>
             </ul>
           </li>
-          <li
-            class="nav-item dropdown hover-primary align-items-center d-flex align-items-center"
-          >
-            <a class="nav-link dropdown-toggle" href="/" aria-expanded="false"
-              >ĐÀO TẠO</a
-            >
+          <li class="nav-item dropdown hover-primary align-items-center d-flex align-items-center">
+            <a class="nav-link dropdown-toggle" href="/" data-bs-toggle="dropdown" aria-expanded="false">ĐÀO TẠO</a>
             <ul class="dropdown-menu">
               <li class="nav-item">
-                <a
-                  class="dropdown-item"
-                  href="/major/cong-nghe-thong-tin-va-chuyen-doi-so-clc-7480201"
-                  >Chương trình CLC: CNTT &amp; CDS</a
-                >
+                <a class="dropdown-item" href="/major/cong-nghe-thong-tin-va-chuyen-doi-so-clc-7480201">Chương trình CLC: CNTT &amp; CDS</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="dropdown-item"
-                  href="/major/cong-nghe-thong-tin-7480201"
-                  >Công nghệ thông tin</a
-                >
+                <a class="dropdown-item" href="/major/cong-nghe-thong-tin-7480201">Công nghệ thông tin</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/major/ky-thuat-phan-mem-EP17"
-                  >Kỹ thuật phần mềm</a
-                >
+                <a class="dropdown-item" href="/major/ky-thuat-phan-mem-EP17">Kỹ thuật phần mềm</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/major/khoa-hoc-may-tinh-7480101"
-                  >Khoa học máy tính</a
-                >
+                <a class="dropdown-item" href="/major/khoa-hoc-may-tinh-7480101">Khoa học máy tính</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/major/an-toan-thong-tin-7480202"
-                  >An toàn thông tin</a
-                >
+                <a class="dropdown-item" href="/major/an-toan-thong-tin-7480202">An toàn thông tin</a>
               </li>
               <li class="nav-item">
                 <a class="dropdown-item" href="/news/category/fit-x">FIT-X</a>
               </li>
             </ul>
           </li>
-          <li
-            class="nav-item dropdown hover-primary align-items-center d-flex align-items-center"
-          >
-            <a class="nav-link dropdown-toggle" href="/" aria-expanded="false"
-              >NGHIÊN CỨU</a
-            >
+          <li class="nav-item dropdown hover-primary align-items-center d-flex align-items-center">
+            <a class="nav-link dropdown-toggle" href="/" data-bs-toggle="dropdown" aria-expanded="false">NGHIÊN CỨU</a>
             <ul class="dropdown-menu">
               <li class="nav-item">
-                <a
-                  class="dropdown-item"
-                  href="/news/category/nghien-cuu-khoa-hoc-giang-vien"
-                  >Nghiên cứu khoa học Giảng viên</a
-                >
+                <a class="dropdown-item" href="/news/category/nghien-cuu-khoa-hoc-giang-vien">Nghiên cứu khoa học Giảng
+                  viên</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="dropdown-item"
-                  href="/news/category/nghien-cuu-khoa-hoc-sinh-vien"
-                  >Nghiên cứu khoa học Sinh viên</a
-                >
+                <a class="dropdown-item" href="/news/category/nghien-cuu-khoa-hoc-sinh-vien">Nghiên cứu khoa học Sinh
+                  viên</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/publication"
-                  >Công trình nghiên cứu</a
-                >
+                <a class="dropdown-item" href="/publication">Công trình nghiên cứu</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/edtechlab"
-                  >Phòng thí nghiệm Edtech Lab</a
-                >
+                <a class="dropdown-item" href="/edtechlab">Phòng thí nghiệm Edtech Lab</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/qaaalab"
-                  >Phòng thí nghiệm QAAA Lab</a
-                >
+                <a class="dropdown-item" href="/qaaalab">Phòng thí nghiệm QAAA Lab</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/news/category/hoi-thao"
-                  >Hội thảo</a
-                >
+                <a class="dropdown-item" href="/news/category/hoi-thao">Hội thảo</a>
               </li>
               <li class="nav-item">
                 <a class="dropdown-item" href="/news/category/de-tai">Đề tài</a>
               </li>
             </ul>
           </li>
-          <li
-            class="nav-item dropdown hover-primary align-items-center d-flex align-items-center"
-          >
-            <a class="nav-link dropdown-toggle" href="/" aria-expanded="false"
-              >THÔNG TIN</a
-            >
+          <li class="nav-item dropdown hover-primary align-items-center d-flex align-items-center">
+            <a class="nav-link dropdown-toggle" href="/" data-bs-toggle="dropdown" aria-expanded="false">THÔNG TIN</a>
             <ul class="dropdown-menu">
               <li class="nav-item">
-                <a class="dropdown-item" href="/news/category/tin-tong-hop"
-                  >Tin tổng hợp</a
-                >
+                <a class="dropdown-item" href="/news/category/tin-tong-hop">Tin tổng hợp</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/news/category/tuyen-sinh"
-                  >Tuyển sinh</a
-                >
+                <a class="dropdown-item" href="/news/category/tuyen-sinh">Tuyển sinh</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/news/category/su-kien"
-                  >Sự kiện</a
-                >
+                <a class="dropdown-item" href="/news/category/su-kien">Sự kiện</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/news/category/thuc-tap"
-                  >Thực tập</a
-                >
+                <a class="dropdown-item" href="/news/category/thuc-tap">Thực tập</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/news/category/tuyen-dung"
-                  >Tuyển dụng</a
-                >
+                <a class="dropdown-item" href="/news/category/tuyen-dung">Tuyển dụng</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/news/category/hoc-bong"
-                  >Học bổng</a
-                >
+                <a class="dropdown-item" href="/news/category/hoc-bong">Học bổng</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/summary-posts"
-                  >Tổng kết bài đăng</a
-                >
+                <a class="dropdown-item" href="/summary-posts">Tổng kết bài đăng</a>
               </li>
             </ul>
           </li>
-          <li
-            class="nav-item dropdown hover-primary align-items-center d-flex align-items-center"
-          >
-            <a class="nav-link dropdown-toggle" href="/" aria-expanded="false"
-              >SINH VIÊN</a
-            >
+          <li class="nav-item dropdown hover-primary align-items-center d-flex align-items-center">
+            <a class="nav-link dropdown-toggle" href="/" data-bs-toggle="dropdown" aria-expanded="false">SINH VIÊN</a>
             <ul class="dropdown-menu">
               <li class="nav-item">
-                <a class="dropdown-item" href="/news/category/thong-bao"
-                  >Thông báo</a
-                >
+                <a class="dropdown-item" href="/news/category/thong-bao">Thông báo</a>
               </li>
               <li class="nav-item">
-                <a class="dropdown-item" href="/news/category/quy-dinh"
-                  >Quy định/Hướng dẫn</a
-                >
+                <a class="dropdown-item" href="/news/category/quy-dinh">Quy định/Hướng dẫn</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="dropdown-item"
-                  href="/news/category/hoat-dong-sinh-vien"
-                  >Hoạt động</a
-                >
+                <a class="dropdown-item" href="/news/category/hoat-dong-sinh-vien">Hoạt động</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="dropdown-item"
-                  href="/news/category/thanh-tich-sinh-vien"
-                  >Thành tích</a
-                >
+                <a class="dropdown-item" href="/news/category/thanh-tich-sinh-vien">Thành tích</a>
               </li>
               <li class="nav-item">
                 <a class="dropdown-item" href="/theses">Chuyên đề/Khoá luận</a>

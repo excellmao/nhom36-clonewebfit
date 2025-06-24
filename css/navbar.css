@@ -1,0 +1,12 @@
+.navbar-nav li {
+    padding: 1em 1em;
+}
+
+.navbar-nav li:hover {
+    background-color: rgb(43, 43, 255);
+}
+
+.navbar-nav li:hover > a {
+    color: white;
+    text-decoration: none;
+}
